@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site pessoal</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 70%;
+    margin: auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background:rgb(15, 15, 15);
+
+    background-image: url(img/background.png);
+    background-repeat:repeat;
+    background-position: top left;
+    background-size: 128px;
+    background-position: top;
+    min-height: 8px;
+}
+
+body a{
+    text-decoration: none;
+    color: #31d439;
+    transition: 00.5s ease;
+}
+
+body a:hover {
+    color: #29811d;
+}
+
+.page-wrapper {
+    margin-bottom: 50px;
+}
+
+.page-wrapper > .main {
+    margin: 30px;
+    padding: 15px 15px 0px 15px;
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.781);
+} 
+
+.page-wrapper h3 { 
+    margin: 20px;
+    font-size: 48px;
+}
+
+.intro {
+    margin: 50px 0px;
+}
+
+.header {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.header h1,h2 {
+ font-size: 60px;
+}
+
+.header h2 {
+    font-weight: lighter;
+}
+
+
+.summary,.preamble {
+    position: initial;
+    top: 50%;
+    left: 50%;
+    margin: 50px auto;
+    padding: 10px;
+    text-align: center;
+    max-width: 70%;
+
+    font-size: 22px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 15px;
+    transition: 10ms;
+    cursor: context-menu;
+}
+
+.explanation,.participation,.benefits,.requirements {
+    margin-bottom: 50px;
+}
+
+.sidebar{
+    align-self: center;
+    position: fixed;
+    top: 0px;
+    left: -19vw;
+    height: 100vh;
+    width: 20vw;
+
+    text-align: center;
+    background-color: transparent;
+    transition: 0.5s linear;
+
+    background-image: url(img/stone.png);
+    min-height: 8px;
+    background-repeat:repeat;
+    background-position: top left;
+    background-size: 128px;
+    background-position: top;
+}
+
+.sidebar:hover {
+    left: 0;
+}
+
+.sidebar::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 19vw;
+    width: 2vw;
+    height: 2vw;
+    
+    background: rgb(86, 173, 255);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+
+    text-align: center;
+    font-size: 1.4vw;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper{
+    height: 80%;
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.footer{
+    font-size: 40px;
+}
+
+.viewall{
+    display:inline-block;
+    font-size: 20px;
+}
+
+.previous, .next{
+    width: 48%;
+    font-size: 20px;
+    float: right;
+    margin: 10px 0px;
+}
+
+.wrapper h3{
+    margin: 10px 10px;
+    font-size: 30px;
+}
+
+.design-selection ul li{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.design-selection a{
+    color: rgb(111, 181, 247);
+}
+
+.design-selection a:hover{
+    color:  rgb(0, 132, 255);
+}
+
+.design-resources ul li{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.design-resources a{
+    color: rgb(111, 181, 247);
+}
+
+.design-resources a:hover{
+    color:  rgb(0, 132, 255);
+}
+
+.design-archives a{
+    color: rgb(111, 181, 247);
+}
+
+.design-archives a:hover{
+    color:  rgb(0, 132, 255);
+}
+
+acronym {
+    text-decoration: none;
+}
+    </style>
+<h1 id="topo">Um pouco da minha história!</h1>
+<hr>
+<h2>Algumas informações sobre minha pessoa:</h2>
+    <p>Prazer, me chamo Bruno Coppini Baierle, tenho 18 anos. Nasci e sempre vivi aqui em Toledo, estudei no La Salle ate o 2º ano do ensino médio e terminei o 3º no PREMEM. </p>
+    <p>Fiz o enem em 2020 e com a minha nota, acabei passando na UTFPR em Sistemas para Internet.</p>
+<hr>
+ <h2>O que eu quero para meu futuro?</h2>
+    <p>Meu maior sonho sempre foi ser piloto de Fórmula 1 ou jogador de futebol, porém, infelizmente, nenhum se realizou.</p>
+    <p>Tirando esses dois sonhos ali de cima que são impossíveis de acontecer, meu maior objetivo ultimamente é me formar e se tornar um grande profissional, tendo minha própria casa, emprego estável e e vivendo sem depender dos outros.</p>
+    <p>Um adcional disso tudo, seria conhecer a mulher que me faria feliz, casar, ter filhos e ser muito feliz, principalmente.</p>
+<hr>
+<h2>O que eu mais faço no dia a dia:</h2>
+     <p>Minha semana é baseada em trabalhar de manha e a tarde, ajudando meu pai na empresa dele. A noite, se eu estiver com tempo livre, jogo alguns jogos em call com meus amigos.</p>
+     <p>Tirando as gameplays no tempo livre, eu estudo e vejo a aula da faculdade, que sinceramente, é algo bem diferente pra mim, pois acabei de sair do ensino médio. Apesar de tudo, estou me adaptando com todos esses sistemas e com o tempo eu entro no ritmo dos professores.</p>
+     <p>Além disso tudo, uma das atividades que eu mais gosto de praticar, é futebol. Amo jogar futebol e por mim jogava todo dia. Infelizmente, por causa do trabalho e faculdade, só estou conseguindo jogar nas quintas e nos sábados. Mesmo sendo poucas vezes durante semana, são dias muito importantes para mim.</p>
+<hr>
+<h2>Um pouco sobre meu gosto musical</h2>
+    <p>Escuto muitos estilos de música, como: pop, funk, trap, sadsongs, rap, bem as vezes sertanejo e quase nunca rock. O meu estilo de música mais ouvida ultimamente é funk. Apesar de muitos não gostarem, eu escuto bastante esse gênero e acho que o principal motivo de gostar do funk, é porque só toca isso em rolê.</p>
+    <p>Vou deixar aqui alguns links com as minhas músicas preferidas para você escutar:</p>     
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sSWsMI5Lnsw?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dkF0_jEjkZQ?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jwtlRXzOwVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GIkKGW628aQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/31j4DIpgY9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+<hr>
+<h2>Minhas comidas preferidas:</h2>
+    <p>Acho que disparadamente minhas comidas favoritas são: Pizza, Hambuguer e Carne Moída.</p>
+    <p>Aqui vai uma lista dos meus sabores de pizza favoritos:</p>
+    <ul>
+        <li>Calabresa;</li>
+        <li>Bacon;</li>
+        <li>Cecíliana;</li>
+        <li>Catufilé;</li>
+        <li>Pepperoni</li>
+    </ul>
+<hr>
+<h2>Sobre meu computador:</h2>
+    <p>Como eu disse ali em cima, um hobby meu é jogar com meus amigos. Jogo em um computador gamer que demorei 3 anos para comprar todas as peças, inclusive todos meus periféricos.</p>
+    <p>Vou fazer aqui uma lista pra mostrar a configuração do meu computador:</p>
+    <ul>
+        <li>PROCESSADOR: I3 10100F;</li>
+        <li>PLACA DE VÍDEO: RX 570;</li>
+        <li>MEMÓRIA: 16GB RAM;</li>
+        <li>HD 2TB;</li>
+        <li>SSD 240GB;</li>
+        <li>FONTE 550W;</li>
+        <li>MOUSE: RAZER VIPER MINI;</li>
+        <li>TECLADO: DUCK SMART 60%;</li>
+        <li>MOUSEPAD: MOUSEPAD COMPANY 900X400;</li>
+        <li>HEADSET: HAVIT H2002;</li>
+        <li>MONITOR: REDRAGON 27' 144HZ;</li>
+    </ul>
+    <p>Os príncipais jogos que eu jogo são: League Of Legends, CSGO e Fortnite.</p>
+<hr>  
+<h2>Despedida</h2>  
+    <p>Bom, a princípio é isso, minha vida não é muito interessante para algumas pessoas, porém é assim que eu vivo.</p>
+    <p>Espero que tenha se distraído um pouco com a minha história e com o que eu faço no dia a dia, é isso, até mais e obrigado pela atenção.</p>
+    <p>🙂</p>      
+</body>
+</html>
